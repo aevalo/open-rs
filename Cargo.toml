@@ -1,0 +1,11 @@
+[package]
+name = "open-rs"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "open"
+path = "src/main.rs"
+
+[dependencies]
+argparse = "0.2.2"
